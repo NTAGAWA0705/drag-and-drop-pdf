@@ -5,29 +5,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="title">file upload drag and drop</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>form</title>
+    <link rel="stylesheet" href="./style.css">
+
 
 </head>
 
 <body class="body">
 
+    <div class="container">
 
-    <b><p>PAGE ONE</p><b>
+        <div class="head">
+            <h1>Create Account</h1>
+            Already have an account? <a href="" class="sign in">Sign in</a>
 
-    <form action="insert.php" method="POST" enctype="multipart/form-data">
-        <input type="file" id="upload" name="file" accept=".pdf" />
-        <input type="submit"  name="submit_btn" >
-      
+            <form action="">
 
-    </form> 
 
-    
+                <div>
+                    <input type="text" placeholder="First  Name " class="fname">
+                    <input type="text" placeholder="Last  Name " class="lname">
+                </div>
+
+                <div class="input">
+                    <input type="email" placeholder="Enter Your Email">
+                </div>
+
+                <div class="input">
+                </div>
+
+                <div class="input">
+                    <input type="password" placeholder="password">
+                </div>
+                <div class="input">
+                    <input type="password" placeholder="Confirm password">
+                </div><br>
+                <div>
+                    <input type="sign up" name="signup" value="Sign up" class="button1">
+
+                </div>
+
+
+
+                <hr>
+
+
+        </div>
+
+        </form>
+
+
+        <script src="../index.js"></script>
+
 
 
 
 </body>
-
-
 
 </html>
